@@ -1,77 +1,350 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
-    <title>宏星工作室官方网站</title>
-	<link rel="stylesheet" href="template">
-	<style>
-        .my-button {
-            background-color: #0e60ca;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-        .my-button:hover {
-            background-color: #0e60ca;
-        }
-        header {
-            overflow: hidden;
-            white-space: nowrap;
-            box-sizing: border-box;
-            background-color: black;
-            color: white;
-        }
-        header span {
-            display: inline-block;
-            padding-left: 100%;
-            animation: headerScroll 20s linear infinite;
-        }
-        @keyframes headerScroll {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-100%); }
-        }
-        .centered {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 72px; /* 将高度缩窄至150px */
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宏维星智 - 智慧科技工作室</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="bg-img"></div>
-    <header><span>MacroStar Studio 欢迎您！</span></header>
+    <header class="global-nav">
+        <nav class="nav-container">
+            <a href="#" class="nav-logo">MacroSTAR</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home">首页</a>
+                    <div class="dropdown-panel">
+                        <div class="dropdown-container">
+                            <div class="dropdown-col">
+                                <h5>快速入口</h5>
+                                <ul>
+                                    <li><a href="#home">MacroSTAR Studio</a></li>
+                                    <li><a href="#ai">核心产品</a></li>
+                                    <li><a href="#web">林笙 · Linden</a></li>
+                                    <li><a href="#contact">联系咨询</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown-col">
+                                <h5>了解我们</h5>
+                                <ul>
+                                    <li><a href="#home">漫天星光，终将汇聚宏维星河</a></li>
+                                    <li><a href="#ai">向下滚动探索</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#ai">产品</a>
+                    <div class="dropdown-panel">
+                        <div class="dropdown-container">
+                            <div class="dropdown-col">
+                                <h5>选购</h5>
+                                <ul>
+                                    <li><a href="#ai">Lunar X</a></li>
+                                    <li><a href="#web">林笙 · Linden</a></li>
+                                    <li><a href="#mobile">山止组件 MacroWidgets</a></li>
+                                    <li><a href="#ai">Lunar Bot 3</a></li>
+                                    <li><a href="#web">LunarValleyX</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#web">团队</a>
+                    <div class="dropdown-panel">
+                        <div class="dropdown-container">
+                            <div class="dropdown-col">
+                                <h5>团队介绍</h5>
+                                <ul>
+                                    <li><a href="#web">林笙 · Linden</a></li>
+                                    <li><a href="#mobile">山止组件</a></li>
+                                    <li><a href="#ai">Lunar 系列</a></li>
+                                    <li><a href="#contact">合作咨询</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown-col">
+                                <h5>加入我们</h5>
+                                <ul>
+                                    <li><a href="#contact">在招职位</a></li>
+                                    <li><a href="#contact">实习计划</a></li>
+                                    <li><a href="#contact">联系顾问</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#mobile">服务</a>
+                    <div class="dropdown-panel">
+                        <div class="dropdown-container">
+                            <div class="dropdown-col">
+                                <h5>专业服务</h5>
+                                <ul>
+                                    <li><a href="#ai">AI 解决方案</a></li>
+                                    <li><a href="#web">Web 开发平台</a></li>
+                                    <li><a href="#mobile">移动组件</a></li>
+                                    <li><a href="#ai">云端服务</a></li>
+                                    <li><a href="#ai">大数据分析</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown-col">
+                                <h5>客户支持</h5>
+                                <ul>
+                                    <li><a href="#contact">合作咨询</a></li>
+                                    <li><a href="#contact">发送邮件</a></li>
+                                    <li><a href="#contact">下载介绍</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#ai">宏吾星耀</a>
+                    <div class="dropdown-panel">
+                        <div class="dropdown-container">
+                            <div class="dropdown-col">
+                                <h5>项目矩阵</h5>
+                                <ul>
+                                    <li><a href="#ai">Lunar X</a></li>
+                                    <li><a href="#web">Linden 林笙</a></li>
+                                    <li><a href="#mobile">MacroWidgets 山止</a></li>
+                                    <li><a href="#ai">Lunar Bot 3</a></li>
+                                    <li><a href="#web">LunarValleyX</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown-col">
+                                <h5>产品理念</h5>
+                                <ul>
+                                    <li><a href="#home">漫天星光</a></li>
+                                    <li><a href="#ai">终将汇聚宏维星河</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact">关于</a>
+                    <div class="dropdown-panel">
+                        <div class="dropdown-container">
+                            <div class="dropdown-col">
+                                <h5>工作室</h5>
+                                <ul>
+                                    <li><a href="#home">关于 MacroSTAR</a></li>
+                                    <li><a href="#ai">产品矩阵</a></li>
+                                    <li><a href="#web">技术栈</a></li>
+                                    <li><a href="#contact">新闻动态</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown-col">
+                                <h5>联系</h5>
+                                <ul>
+                                    <li><a href="#contact">合作咨询</a></li>
+                                    <li><a href="mailto:contact@hongweixingzhi.com">发送邮件</a></li>
+                                    <li><a href="#contact">下载介绍</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown-col">
+                                <h5>法律</h5>
+                                <ul>
+                                    <li><a href="#contact">隐私政策</a></li>
+                                    <li><a href="#contact">使用条款</a></li>
+                                    <li><a href="#contact">版权信息</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#contact" class="btn-contact">联系我们</a>
+            </div>
+        </nav>
+    </header>
+
     <main>
-        <div class="centered">
-            <h1>宏星工作室 | 重新出发，向新前进</h1>
-		</div>
-        <div class="centered">
-		<p>宏星工作室欢迎👏您的到来</p>
-		</div>
-		<div class="centered">
-        <p>宏星工作室致力于打造好玩、实用的产品，敬请期待！</p>
+        <!-- Hero 全屏 -->
+        <section id="home" class="hero hero-visual">
+            <div class="bg-img bg-hero"></div>
+            <div class="bg-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">MacroSTAR Studio</h1>
+                <h2 class="hero-subtitle">宏维星智智慧科技工作室</h2>
+                <p class="hero-description">漫天星光，终将汇聚宏维星河！</p>
+                <div class="hero-links">
+                    <a href="#ai" class="btn-filled">进一步了解</a>
+                    <a href="#contact" class="btn-outline">联系我们</a>
+                </div>
+            </div>
+            <a href="#ai" class="hero-scroll">向下滚动</a>
+        </section>
+
+        <!-- 模块：AI 解决方案 -->
+        <section id="ai" class="tile tile-dark tile-ai">
+            <div class="bg-img bg-ai"></div>
+            <div class="bg-overlay"></div>
+            <div class="tile-head">
+                <h2 class="tile-title">Lunar X</h2>
+                <h3 class="tile-sub">新势力，轻装上阵</h3>
+                <div class="tile-buttons">
+                    <a href="#" class="btn-filled">进一步了解</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 模块：Web 开发 -->
+        <section id="web" class="tile tile-light">
+            <div class="bg-img bg-web"></div>
+            <div class="bg-overlay bg-overlay-light"></div>
+            <div class="tile-head">
+                <h2 class="tile-title">林笙 · Linden</h2>
+                <h3 class="tile-sub">陪你，帮你，让你，做你</h3>
+                <div class="tile-buttons">
+                    <a href="#" class="btn-filled">进一步了解</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 模块：移动端 -->
+        <section id="mobile" class="tile tile-light-blue">
+            <div class="bg-img bg-mobile"></div>
+            <div class="bg-overlay bg-overlay-light"></div>
+            <div class="tile-head">
+                <h2 class="tile-title">山止组件MacroWidgets</h2>
+                <h3 class="tile-sub">方寸之间</h3>
+                <div class="tile-buttons">
+                    <a href="#" class="btn-filled">进一步了解</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2 列卡片网格 -->
+        <section class="tile-grid">
+            <div class="tile-card card-dark card-iot">
+                <div class="bg-img bg-card-iot"></div>
+                <div class="bg-overlay"></div>
+                <div class="card-head">
+                    <h4 class="card-title">Lunar Bot 3</h4>
+                    <p class="card-sub">大相径庭</p>
+                    <div class="card-buttons">
+                        <a href="#" class="btn-filled btn-sm">进一步了解</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tile-card card-light card-cloud">
+                <div class="bg-img bg-card-cloud"></div>
+                <div class="bg-overlay bg-overlay-light"></div>
+                <div class="card-head">
+                    <h4 class="card-title">LunarValleyX</h4>
+                    <p class="card-sub">More Beautiful</p>
+                    <div class="card-buttons">
+                        <a href="#" class="btn-filled btn-sm">进一步了解</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tile-card card-dark card-data">
+                <div class="bg-img bg-card-data"></div>
+                <div class="bg-overlay"></div>
+                <div class="card-head">
+                    <h4 class="card-title">大数据分析</h4>
+                    <p class="card-sub">让数据，替你做决策。</p>
+                    <div class="card-buttons">
+                        <a href="#" class="btn-filled btn-sm">进一步了解</a>
+                        <a href="#contact" class="btn-outline btn-sm">开启合作</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tile-card card-light card-team">
+                <div class="bg-img bg-card-team"></div>
+                <div class="bg-overlay bg-overlay-light"></div>
+                <div class="card-head">
+                    <h4 class="card-title">专业团队</h4>
+                    <p class="card-sub">平均 8 年行业经验。</p>
+                    <div class="card-buttons">
+                        <a href="#about" class="btn-filled btn-sm">进一步了解</a>
+                        <a href="#contact" class="btn-outline btn-sm">联系我们</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tile-card card-dark card-tech">
+                <div class="bg-img bg-card-tech"></div>
+                <div class="bg-overlay"></div>
+                <div class="card-head">
+                    <h4 class="card-title">技术栈</h4>
+                    <p class="card-sub">我们信任并使用的工具。</p>
+                    <div class="card-buttons">
+                        <a href="#" class="btn-filled btn-sm">进一步了解</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tile-card card-light card-contact" id="contact">
+                <div class="bg-img bg-card-contact"></div>
+                <div class="bg-overlay bg-overlay-light"></div>
+                <div class="card-head">
+                    <h4 class="card-title">合作咨询</h4>
+                    <p class="card-sub">准备好项目了吗？</p>
+                    <div class="card-buttons">
+                        <a href="mailto:contact@hongweixingzhi.com" class="btn-filled btn-sm">发送邮件</a>
+                        <a href="#" class="btn-outline btn-sm">下载介绍</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <h4>服务</h4>
+                    <ul>
+                        <li><a href="#ai">AI 解决方案</a></li>
+                        <li><a href="#web">Web 开发</a></li>
+                        <li><a href="#mobile">移动应用</a></li>
+                        <li><a href="#iot">物联网</a></li>
+                        <li><a href="#cloud">云端服务</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>公司</h4>
+                    <ul>
+                        <li><a href="#about">关于我们</a></li>
+                        <li><a href="#">新闻动态</a></li>
+                        <li><a href="#">加入我们</a></li>
+                        <li><a href="#">合作伙伴</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>资源</h4>
+                    <ul>
+                        <li><a href="#">技术博客</a></li>
+                        <li><a href="#">开源项目</a></li>
+                        <li><a href="#">文档中心</a></li>
+                        <li><a href="#">行业洞察</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>联系</h4>
+                    <ul>
+                        <li><a href="mailto:contact@hongweixingzhi.com">contact@hongweixingzhi.com</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2024-2026 MacroSTAR Studio. All rights reserved.</p>
+                <p><a href="#">隐私政策</a> · <a href="#">使用条款</a> · <a href="#">网站地图</a></p>
+            </div>
         </div>
-		<div class="centered">
-			<h2>我们的产品</h2>
-			<p>Lunar_Bot 4.0 林浅月第四代QQ机器人</p>
-			
-			<P>Lunar X 林浅月 5.0原生版本（开发中）</P>
-			
-			<p>Lunar_UI 基于Windows系统的优化版本（开发中）</p>
-			
-			<p>RuiCraft 鸿瑞服务器 宏星工作室旗下Minecraft服务器</p>
-		</div>
-		</main>
-<footer>
-	<p>开发中页面，不代表最终品质</p>
-</footer>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
-		</html>
+</html>
