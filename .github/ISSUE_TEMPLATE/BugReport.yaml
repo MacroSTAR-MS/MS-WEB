@@ -1,8 +1,8 @@
-name: Bug 反馈
-description: 在使用 MornheIsland 的过程中遇到了 Bug。
-title: [Bug] 
+name: "Bug 反馈"
+description: "在使用 MornheIsland 的过程中遇到了 Bug。"
+title: "[Bug]"
 labels: ["Bug", "Waiting", "优先级：无"]
-type: Bug
+type: "Bug"
 body:
   - type: markdown
     attributes:
